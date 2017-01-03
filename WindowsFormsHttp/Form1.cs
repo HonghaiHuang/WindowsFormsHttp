@@ -38,5 +38,8 @@ namespace WindowsFormsHttp
             textBox1.Text = "";
             string aa = "0";
         }
+
+       private void st()
+        { }
     }
 }
