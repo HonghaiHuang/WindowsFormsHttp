@@ -23,7 +23,7 @@ namespace WindowsFormsHttp
             { webBrowser1.Navigate(textBox1.Text);}
             else
             {
-                ;
+                textBox1.Text="";
             }
         }
     }
