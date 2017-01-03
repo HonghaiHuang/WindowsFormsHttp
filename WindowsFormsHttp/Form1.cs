@@ -17,6 +17,12 @@ namespace WindowsFormsHttp
             InitializeComponent();
         }
 
+
+        /// <summary>
+        /// 浏览器事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             if(e.KeyChar==(char)13)
