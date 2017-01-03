@@ -36,6 +36,7 @@ namespace WindowsFormsHttp
         private void aa()
         {
             textBox1.Text = "";
+            string aa = "0";
         }
     }
 }
