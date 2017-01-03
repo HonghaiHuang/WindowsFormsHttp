@@ -16,5 +16,15 @@ namespace WindowsFormsHttp
         {
             InitializeComponent();
         }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(e.KeyChar==(char)13)
+            { webBrowser1.Navigate(textBox1.Text);}
+            else
+            {
+                ;
+            }
+        }
     }
 }
