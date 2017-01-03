@@ -32,5 +32,10 @@ namespace WindowsFormsHttp
                 textBox1.Text="";
             }
         }
+
+        private void aa()
+        {
+            textBox1.Text = "";
+        }
     }
 }
