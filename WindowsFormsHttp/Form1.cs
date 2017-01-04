@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsHttp.DataClass;
 
 namespace WindowsFormsHttp
 {
@@ -27,10 +28,6 @@ namespace WindowsFormsHttp
         {
             if(e.KeyChar==(char)13)
             { webBrowser1.Navigate(textBox1.Text);}
-            else
-            {
-                textBox1.Text="";
-            }
         }
 
         private void aa()
@@ -39,7 +36,9 @@ namespace WindowsFormsHttp
             string aa = "0";
         }
 
-       private void st()
-        { }
+        private void st()
+        {
+            DataPross.data = "haha";
+        }
     }
 }
